@@ -24,8 +24,8 @@ html {
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    display: flex;    
+    height: 100vh;    
     background: var(--background);
 }
 
@@ -96,9 +96,9 @@ button.outlined,
 
 .content header {
     width: 80%;
-    margin: 3.5rem auto;
+    margin: 3rem auto;
 }
 
 .content header img {
-    width: 16.7rem;
+    width: 12.7rem;
 }
