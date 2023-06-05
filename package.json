@@ -1,0 +1,22 @@
+{
+  "name": "projetomensagens",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da página.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Marcelo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
