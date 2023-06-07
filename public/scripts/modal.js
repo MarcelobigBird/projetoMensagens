@@ -2,7 +2,7 @@ export default function Modal() {
 
 
     // Pegar o botão que existe com a classe delete
-    const cancelButtons = document.querySelector('.modal-wrapper .buttons .button.grey.cancel');
+    const cancelButtons = document.querySelector('.button.grey.cancel');
     cancelButtons.addEventListener('click', close)
 
 
@@ -16,8 +16,6 @@ export default function Modal() {
         document.querySelector('.modal-wrapper').classList.remove('active');
     }
 
-    return {
-        open, close
-    }
+    return { open, close }
 }
 
